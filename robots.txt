@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
-Sitemap: https://trsh-clndrs.pages.dev/sitemap.xml
+Sitemap: https://www.trashcalendars.org/sitemap.xml
