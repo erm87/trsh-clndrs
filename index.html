@@ -27,7 +27,7 @@
 <meta name="theme-color" content="#fff6f6" />
 <link rel="canonical" href="https://www.trashcalendars.org/" />
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","url":"https://www.trashcalendars.org/","name":"Trash Calendars","logo":"https://res.cloudinary.com/erm87/images/f_auto,q_auto/v1659497089/recycling-symbol_267b-fe0f/recycling-symbol_267b-fe0f.png?_i=AA"}</script>
-<!-- / The SEO Framework by Sybre Waaijer | 3.77ms meta | 0.47ms boot -->
+<!-- / The SEO Framework by Sybre Waaijer | 4.47ms meta | 0.46ms boot -->
 
 <link href="https://www.googletagmanager.com" rel="preconnect"><link href="https://res.cloudinary.com" rel="preconnect"><link href="https://www.google-analytics.com" rel="preconnect"><title>Trash Calendars | Never miss trash day.</title>
 <link rel="alternate" type="application/rss+xml" title="Trash Calendars &raquo; Feed" href="https://www.trashcalendars.org/feed/" />
@@ -74,11 +74,162 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <style id='wp-webfonts-inline-css'>
 @font-face{font-family:"IBM Plex Sans";font-style:normal;font-weight:400;font-display:fallback;src:local("IBM Plex Sans"), url('/wp-content/themes/twentytwentytwo/assets/fonts/ibm-plex/IBMPlexSans-Light.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"IBM Plex Sans";font-style:italic;font-weight:400;font-display:fallback;src:local("IBM Plex Sans"), url('/wp-content/themes/twentytwentytwo/assets/fonts/ibm-plex/IBMPlexSans-LightItalic.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"IBM Plex Sans";font-style:normal;font-weight:200;font-display:fallback;src:local("IBM Plex Sans"), url('/wp-content/themes/twentytwentytwo/assets/fonts/ibm-plex/IBMPlexSans-ExtraLight.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"IBM Plex Sans";font-style:italic;font-weight:200;font-display:fallback;src:local("IBM Plex Sans"), url('/wp-content/themes/twentytwentytwo/assets/fonts/ibm-plex/IBMPlexSans-ExtraLightItalic.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:400;font-display:fallback;src:local("IBM Plex Mono"), url('/wp-content/themes/twentytwentytwo/assets/fonts/ibm-plex/IBMPlexMono-Text.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"IBM Plex Mono";font-style:italic;font-weight:400;font-display:fallback;src:local("IBM Plex Mono"), url('/wp-content/themes/twentytwentytwo/assets/fonts/ibm-plex/IBMPlexMono-TextItalic.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:700;font-display:fallback;src:local("IBM Plex Mono"), url('/wp-content/themes/twentytwentytwo/assets/fonts/ibm-plex/IBMPlexMono-Bold.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"IBM Plex Mono";font-style:italic;font-weight:700;font-display:fallback;src:local("IBM Plex Mono"), url('/wp-content/themes/twentytwentytwo/assets/fonts/ibm-plex/IBMPlexSans-BoldItalic.woff2') format('woff2');font-stretch:normal;}
 </style>
-<link rel='stylesheet' id='twentytwentytwo-style-css'  href='https://www.trashcalendars.org/wp-content/uploads/hummingbird-assets/9a98bbd75a45bd33d2f908563ec88afc.css' media='all' />
+<style id='twentytwentytwo-style-inline-css'>
+/*
+Theme Name: Twenty Twenty-Two
+Theme URI: https://wordpress.org/themes/twentytwentytwo/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme’s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Full Site Editing features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you’re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.
+Requires at least: 5.9
+Tested up to: 6.0
+Requires PHP: 5.6
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwentytwo
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments
+
+Twenty Twenty-Two WordPress Theme, (C) 2021 WordPress.org
+Twenty Twenty-Two is distributed under the terms of the GNU GPL.
+*/
+
+/*
+ * Font smoothing.
+ * This is a niche setting that will not be available via Global Styles.
+ * https://github.com/WordPress/gutenberg/issues/35934
+ */
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+/*
+ * Text and navigation link styles.
+ * Necessary until the following issue is resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/27075
+ */
+
+a {
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.25ch;
+}
+
+a:hover,
+a:focus {
+	text-decoration-style: dashed;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+.wp-block-navigation .wp-block-navigation-item a:hover,
+.wp-block-navigation .wp-block-navigation-item a:focus {
+	text-decoration: underline;
+	text-decoration-style: solid;
+}
+
+/*
+ * Search and File Block button styles.
+ * Necessary until the following issues are resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/36444
+ * https://github.com/WordPress/gutenberg/issues/27760
+ */
+
+.wp-block-search__button,
+.wp-block-file .wp-block-file__button {
+	background-color: var(--wp--preset--color--primary);
+	border-radius: 0;
+	border: none;
+	color: var(--wp--preset--color--background);
+	font-size: var(--wp--preset--font-size--medium);
+	padding: calc(.667em + 2px) calc(1.333em + 2px);
+}
+
+/*
+ * Button hover styles.
+ * Necessary until the following issue is resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/27075
+ */
+
+.wp-block-search__button:hover,
+.wp-block-file .wp-block-file__button:hover,
+.wp-block-button__link:hover {
+	opacity: 0.90;
+}
+
+/*
+ * Alignment styles.
+ * These rules are temporary, and should not be relied on or
+ * modified too heavily by themes or plugins that build on
+ * Twenty Twenty-Two. These are meant to be a precursor to
+ * a global solution provided by the Block Editor.
+ *
+ * Relevant issues:
+ * https://github.com/WordPress/gutenberg/issues/35607
+ * https://github.com/WordPress/gutenberg/issues/35884
+ */
+
+.wp-site-blocks,
+body > .is-root-container,
+.edit-post-visual-editor__post-title-wrapper,
+.wp-block-group.alignfull,
+.wp-block-group.has-background,
+.wp-block-cover.alignfull,
+.is-root-container .wp-block[data-align="full"] > .wp-block-group,
+.is-root-container .wp-block[data-align="full"] > .wp-block-cover {
+	padding-left: var(--wp--custom--spacing--outer);
+	padding-right: var(--wp--custom--spacing--outer);
+}
+
+.wp-site-blocks .alignfull,
+.wp-site-blocks > .wp-block-group.has-background,
+.wp-site-blocks > .wp-block-cover,
+.wp-site-blocks > .wp-block-template-part > .wp-block-group.has-background,
+.wp-site-blocks > .wp-block-template-part > .wp-block-cover,
+body > .is-root-container > .wp-block-cover,
+body > .is-root-container > .wp-block-template-part > .wp-block-group.has-background,
+body > .is-root-container > .wp-block-template-part > .wp-block-cover,
+.is-root-container .wp-block[data-align="full"] {
+	margin-left: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	margin-right: calc(-1 * var(--wp--custom--spacing--outer)) !important;
+	width: unset;
+}
+
+/* Blocks inside columns don't have negative margins. */
+.wp-site-blocks .wp-block-columns .wp-block-column .alignfull,
+.is-root-container .wp-block-columns .wp-block-column .wp-block[data-align="full"],
+/* We also want to avoid stacking negative margins. */
+.wp-site-blocks .alignfull:not(.wp-block-group) .alignfull,
+.is-root-container .wp-block[data-align="full"] > *:not(.wp-block-group) .wp-block[data-align="full"] {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	width: inherit;
+}
+
+/*
+ * Responsive menu container padding.
+ * This ensures the responsive container inherits the same
+ * spacing defined above. This behavior may be built into
+ * the Block Editor in the future.
+ */
+
+.wp-block-navigation__responsive-container.is-menu-open {
+	padding-top: var(--wp--custom--spacing--outer);
+	padding-bottom: var(--wp--custom--spacing--large);
+	padding-right: var(--wp--custom--spacing--outer);
+	padding-left: var(--wp--custom--spacing--outer);
+}
+
+
+</style>
 <script>
 var CLDLB = {"image_optimization":"on","image_format":"auto","image_quality":"auto","image_freeform":"","svg_support":"off","image_preview":"https:\/\/res.cloudinary.com\/demo\/image\/upload\/w_600\/sample.jpg","video_player":"wp","video_controls":"on","video_loop":"off","video_autoplay_mode":"off","video_optimization":"on","video_format":"auto","video_quality":"auto","video_freeform":"","video_preview":"","use_lazy_load":"on","lazy_threshold":"100px","lazy_custom_color":"rgba(153,153,153,0.5)","lazy_animate":"on","lazy_placeholder":"blur","dpr":"2X","lazyload_preview":"https:\/\/res.cloudinary.com\/demo\/image\/upload\/w_600\/sample.jpg","enable_breakpoints":"on","pixel_step":200,"breakpoints":"","max_width":2048,"min_width":200,"breakpoints_preview":"https:\/\/res.cloudinary.com\/demo\/image\/upload\/w_600\/sample.jpg","placeholder":"e_blur:2000,q_1,f_auto","base_url":"https:\/\/res.cloudinary.com\/erm87"};!function(e){var t={};function r(i){if(t[i])return t[i].exports;var n=t[i]={i:i,l:!1,exports:{}};return e[i].call(n.exports,n,n.exports,r),n.l=!0,n.exports}r.m=e,r.c=t,r.d=function(e,t,i){r.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:i})},r.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.t=function(e,t){if(1&t&&(e=r(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var i=Object.create(null);if(r.r(i),Object.defineProperty(i,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var n in e)r.d(i,n,function(t){return e[t]}.bind(null,n));return i},r.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return r.d(t,"a",t),t},r.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},r.p="",r(r.s=161)}({10:function(e,t){e.exports=function(e,t){(null==t||t>e.length)&&(t=e.length);for(var r=0,i=new Array(t);r<t;r++)i[r]=e[r];return i},e.exports.__esModule=!0,e.exports.default=e.exports},15:function(e,t,r){var i=r(10);e.exports=function(e,t){if(e){if("string"==typeof e)return i(e,t);var r=Object.prototype.toString.call(e).slice(8,-1);return"Object"===r&&e.constructor&&(r=e.constructor.name),"Map"===r||"Set"===r?Array.from(e):"Arguments"===r||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r)?i(e,t):void 0}},e.exports.__esModule=!0,e.exports.default=e.exports},161:function(e,t,r){"use strict";r.r(t);var i=r(8),n=r.n(i),o={deviceDensity:window.devicePixelRatio?window.devicePixelRatio:"auto",density:null,config:CLDLB||{},lazyThreshold:0,enabled:!1,sizeBands:[],iObserver:null,pObserver:null,rObserver:null,aboveFold:!0,minPlaceholderThreshold:500,bind:function(e){var t=this;e.CLDbound=!0,this.enabled||this._init();var r=e.dataset.size.split(" ");e.originalWidth=r[0],e.originalHeight=r[1],this.pObserver?(this.aboveFold&&this.inInitialView(e)?this.buildImage(e):(this.pObserver.observe(e),this.iObserver.observe(e)),e.addEventListener("error",(function(r){e.srcset="",e.src='data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" fill="rgba(0,0,0,0.1)"/><text x="50%" y="50%" fill="red" text-anchor="middle" dominant-baseline="middle">%26%23x26A0%3B︎</text></svg>',t.rObserver.unobserve(e)}))):this.setupFallback(e)},buildImage:function(e){e.dataset.srcset?(e.cld_loaded=!0,e.srcset=e.dataset.srcset):(e.src=this.getSizeURL(e),e.dataset.responsive&&this.rObserver.observe(e))},inInitialView:function(e){var t=e.getBoundingClientRect();return this.aboveFold=t.top<window.innerHeight+this.lazyThreshold,this.aboveFold},setupFallback:function(e){var t=this,r=[];this.sizeBands.forEach((function(i){if(i<=e.originalWidth){var n=t.getSizeURL(e,i,!0)+" ".concat(i,"w");-1===r.indexOf(n)&&r.push(n)}})),e.srcset=r.join(","),e.sizes="(max-width: ".concat(e.originalWidth,"px) 100vw, ").concat(e.originalWidth,"px")},_init:function(){this.enabled=!0,this._calcThreshold(),this._getDensity();for(var e=parseInt(this.config.max_width),t=parseInt(this.config.min_width),r=parseInt(this.config.pixel_step);e-r>=t;)e-=r,this.sizeBands.push(e);"undefined"!=typeof IntersectionObserver&&this._setupObservers(),this.enabled=!0},_setupObservers:function(){var e=this,t={rootMargin:this.lazyThreshold+"px 0px "+this.lazyThreshold+"px 0px"},r=this.minPlaceholderThreshold<2*this.lazyThreshold?2*this.lazyThreshold:this.minPlaceholderThreshold,i={rootMargin:r+"px 0px "+r+"px 0px"};this.rObserver=new ResizeObserver((function(t,r){t.forEach((function(t){t.target.cld_loaded&&t.contentRect.width>=t.target.cld_loaded&&(t.target.src=e.getSizeURL(t.target))}))})),this.iObserver=new IntersectionObserver((function(t,r){t.forEach((function(t){t.isIntersecting&&(e.buildImage(t.target),r.unobserve(t.target),e.pObserver.unobserve(t.target))}))}),t),this.pObserver=new IntersectionObserver((function(t,r){t.forEach((function(t){t.isIntersecting&&(t.target.src=e.getPlaceholderURL(t.target),r.unobserve(t.target))}))}),i)},_calcThreshold:function(){var e=this.config.lazy_threshold.replace(/[^0-9]/g,""),t=0;switch(this.config.lazy_threshold.replace(/[0-9]/g,"").toLowerCase()){case"em":t=parseFloat(getComputedStyle(document.body).fontSize)*e;break;case"rem":t=parseFloat(getComputedStyle(document.documentElement).fontSize)*e;break;case"vh":t=window.innerHeight/e*100;break;default:t=e}this.lazyThreshold=parseInt(t,10)},_getDensity:function(){var e=this.config.dpr?this.config.dpr.replace("X",""):"off";if("off"===e)return this.density=1,1;var t=this.deviceDensity;"max"!==e&&"auto"!==t&&(e=parseFloat(e),t=t>Math.ceil(e)?e:t),this.density=t},scaleWidth:function(e,t,r){var i=parseInt(this.config.max_width);if(!t){t=e.width;for(var n=Math.round(t/r);-1===this.sizeBands.indexOf(t)&&n<e.height&&t<i;)t++,n=Math.round(t/r)}return t>i&&(t=i),e.originalWidth<t&&(t=e.originalWidth),t},scaleSize:function(e,t,r){var i=e.dataset.crop?parseFloat(e.dataset.crop):(e.originalWidth/e.originalHeight).toFixed(2),n=this.scaleWidth(e,t,i),o=Math.round(n/i),s=[];return s.push(e.dataset.crop?"c_fill":"c_scale"),e.dataset.crop&&s.push("g_auto"),s.push("w_"+n),s.push("h_"+o),r&&1!==this.density&&s.push("dpr_"+this.density),e.cld_loaded=n,{transformation:s.join(","),nameExtension:n+"x"+o}},getSizeURL:function(e,t){var r=this.scaleSize(e,t,!0);return[this.config.base_url,"image",e.dataset.delivery,"upload"===e.dataset.delivery?r.transformation:"",e.dataset.transformations,"v"+e.dataset.version,e.dataset.publicId+"?_i=AA"].filter(this.empty).join("/")},getPlaceholderURL:function(e){e.cld_placehold=!0;var t=this.scaleSize(e,null,!1);return[this.config.base_url,"image",e.dataset.delivery,t.transformation,this.config.placeholder,e.dataset.publicId].filter(this.empty).join("/")},empty:function(e){return void 0!==e&&0!==e.length}};window.CLDBind=function(e){e.CLDbound||o.bind(e)},window.addEventListener("load",(function(){n()(document.querySelectorAll('img[data-cloudinary="lazy"]')).forEach((function(e){CLDBind(e)}))}))},26:function(e,t,r){var i=r(10);e.exports=function(e){if(Array.isArray(e))return i(e)},e.exports.__esModule=!0,e.exports.default=e.exports},27:function(e,t){e.exports=function(e){if("undefined"!=typeof Symbol&&null!=e[Symbol.iterator]||null!=e["@@iterator"])return Array.from(e)},e.exports.__esModule=!0,e.exports.default=e.exports},28:function(e,t){e.exports=function(){throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")},e.exports.__esModule=!0,e.exports.default=e.exports},8:function(e,t,r){var i=r(26),n=r(27),o=r(15),s=r(28);e.exports=function(e){return i(e)||n(e)||o(e)||s()},e.exports.__esModule=!0,e.exports.default=e.exports}});
 </script>
-<script src='https://www.trashcalendars.org/wp-content/uploads/hummingbird-assets/1bbc7f8c1f7a979030f577975a13685f.js' id='wphb-1-js'></script>
+<script src='https://www.trashcalendars.org/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script src='https://www.trashcalendars.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
 <link rel="https://api.w.org/" href="https://www.trashcalendars.org/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.trashcalendars.org/xmlrpc.php?rsd" />
 <style>.wp-container-1 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: nowrap;align-items: center;}.wp-container-1 > * { margin: 0; }</style>
 <style>.wp-container-2 > :where(:not(.alignleft):not(.alignright)) {max-width: 800px;margin-left: auto !important;margin-right: auto !important;}.wp-container-2 > .alignwide { max-width: 800px;}.wp-container-2 .alignfull { max-width: none; }.wp-container-2 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-2 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-2 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-2 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-2 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
@@ -227,6 +378,7 @@ var CLDLB = {"image_optimization":"on","image_format":"auto","image_quality":"au
 		sibling.parentElement.insertBefore( skipLink, sibling );
 	}() );
 	</script>
-	<script src='https://www.trashcalendars.org/wp-content/uploads/hummingbird-assets/5a4dd8672e555548a6ab8be52c70fe7d.js' id='wphb-2-js'></script>
+	<script src='https://www.trashcalendars.org/wp-content/plugins/advanced-accordion-block/lib/js/separate-accordion.js?ver=4.5.0' id='aagb-separate-accordion-js'></script>
+<script src='https://www.trashcalendars.org/wp-content/plugins/advanced-accordion-block/lib/js/group-accordion.js?ver=4.5.0' id='aagb-accordion-group-js'></script>
 </body>
 </html>
