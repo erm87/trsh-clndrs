@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- Sitemap is generated on 2022-08-14 01:10:44 GMT -->
+<!-- Sitemap is generated on 2022-08-26 22:51:09 GMT -->
 	<url>
 		<loc>https://www.trashcalendars.org/</loc>
 	</url>
 	<url>
 		<loc>https://www.trashcalendars.org/charlotte-trash-schedule/</loc>
-		<lastmod>2022-08-14T05:09+00:00</lastmod>
+		<lastmod>2022-08-27T02:46+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://www.trashcalendars.org/raleigh-trash-schedule/</loc>
 		<lastmod>2022-08-14T05:10+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://www.trashcalendars.org/winston-salem-trash-schedule/</loc>
+		<lastmod>2022-08-27T02:44+00:00</lastmod>
 	</url>
 </urlset>
 <!-- Sitemap is served from cache -->
